@@ -1,5 +1,5 @@
 parameters:
-    dothiv_parsedown.twig.extension.parsedown.class: Dothiv\ParsedownBundle\Twig\Extension\Parsedown
+    dothiv_parsedown.twig.extension.parsedown.class: Dothiv\Bundle\ParsedownBundle\Twig\Extension\Parsedown
 
 services:
     dothiv_parsedown.twig.extension.parsedown:

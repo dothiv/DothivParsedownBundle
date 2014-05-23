@@ -1,6 +1,6 @@
 <?php
 
-namespace Dothiv\ParsedownBundle;
+namespace Dothiv\Bundle\ParsedownBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

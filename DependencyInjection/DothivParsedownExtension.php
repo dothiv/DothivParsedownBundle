@@ -1,6 +1,6 @@
 <?php
 
-namespace Dothiv\ParsedownBundle\DependencyInjection;
+namespace Dothiv\Bundle\ParsedownBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

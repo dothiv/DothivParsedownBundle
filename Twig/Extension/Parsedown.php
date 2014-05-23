@@ -1,6 +1,6 @@
 <?php
 
-namespace Dothiv\ParsedownBundle\Twig\Extension;
+namespace Dothiv\Bundle\ParsedownBundle\Twig\Extension;
 
 class Parsedown extends \Twig_Extension
 {
