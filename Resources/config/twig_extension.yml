@@ -1,0 +1,8 @@
+parameters:
+    dothiv_parsedown.twig.extension.parsedown.class: Dothiv\ParsedownBundle\Twig\Extension\Parsedown
+
+services:
+    dothiv_parsedown.twig.extension.parsedown:
+        class: %dothiv_parsedown.twig.extension.parsedown.class%
+        tags:
+         - { name: twig.extension }

@@ -1,0 +1,33 @@
+{
+    "name": "dothiv/dothiv-parsedown-bundle",
+    "type": "symfony-bundle",
+    "description": "dotHIV parsedown bundle for Symfony2 install Parsedown and provides a twig filter",
+    "keywords": ["parsedown", "twig", "symfony2", "markdown", "bundle"],
+    "homepage": "http://github.com/dotHIV/DothivParsedownBundle",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "TLD dotHIV Registry GmbH",
+            "homepage": "http://dothiv-registry.net"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.9",
+        "symfony/framework-bundle": "~2.1",
+        "erusev/parsedown": "1.0.*"
+    },
+
+    "suggest": {
+        "symfony/twig-bundle": "to use the Twig markdown filter"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Dothiv\\Bundle\\ParsedownBundle": ""
+        }
+    },
+
+    "target-dir": "Dothiv/Bundle/ParsedownBundle"
+}
