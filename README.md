@@ -10,7 +10,7 @@ dotHIV parsedown bundle for Symfony2 install Parsedown and provides a twig filte
 
 Add
 
-    new Dothiv\ParsedownBundle\DothivParsedownBundle(),
+    new Dothiv\Bundle\ParsedownBundle\DothivParsedownBundle(),
 
 to your `AppKernel.php`.
 
