@@ -12,7 +12,7 @@ class Parsedown extends \Twig_Extension
     public function getFilters()
     {
         return array(
-            'markdown' => new \Twig_Filter_Method($this, 'parsedown', array('is_safe' => array('html'))),
+            'markdown' => new \Twig_SimpleFilter('markdown',array($this, 'parsedown'), array('is_safe' => array('html')))
         );
     }
 
