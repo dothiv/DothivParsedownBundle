@@ -5,7 +5,7 @@
     "keywords": ["parsedown", "twig", "symfony2", "markdown", "bundle"],
     "homepage": "http://github.com/dotHIV/DothivParsedownBundle",
     "license": "MIT",
-
+    "version": "1.1.0",
     "authors": [
         {
             "name": "TLD dotHIV Registry GmbH",
